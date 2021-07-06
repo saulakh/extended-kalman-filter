@@ -24,6 +24,16 @@ To calculate y for the radar sensor, we need to convert x' to polar coordinates,
 
 For laser measurement updates, we can use the H matrix to calculate y, S, K, and P. For radar measurement updates, the Jacobian matrix Hj is used instead to calculate S, K, and P.
 
+### Project Build Instructions
+
+The main program can be built and run by doing the following from the project top directory:
+
+1. mkdir build
+2. cd build
+3. cmake ..
+4. make
+5. ./ExtendedKF
+
 ### Project Files
 
 These files are located in the src folder:
